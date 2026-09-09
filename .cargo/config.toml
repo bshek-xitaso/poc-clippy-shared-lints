@@ -1,0 +1,11 @@
+[alias]
+clippy-lint = [
+    "clippy",
+    "--workspace",
+    "--all-targets",
+    "--locked",
+    "--",
+    "-Dwarnings",
+    "@.shared/shared-workflows/clippy-lints",
+    "@.cargo/clippy-lint-overrides",
+]

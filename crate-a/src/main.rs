@@ -1,3 +1,7 @@
 fn main() {
-    println!("Hello, world!");
+    do_something();
+}
+
+fn do_something() {
+    std::process::exit(1);
 }

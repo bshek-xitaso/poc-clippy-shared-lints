@@ -1,0 +1,4 @@
+[submodule ".shared/shared-workflows"]
+	path = .shared/shared-workflows
+	url = https://github.com/bshek-xitaso/shared-workflows.git
+	branch = poc/shared-clippy-lints
